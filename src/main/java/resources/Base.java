@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 //import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -77,6 +78,12 @@ public class Base {
 				
 				options.addArguments("--disable-notifications");
 				
+				driver.manage().window().maximize();
+				//Dimension d =new Dimension(400,400);
+				//driver.manage().window().setSize(d);
+				
+				driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
+				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 				
 				String path=System.getProperty("user.dir");//it will get current project directoy/path
 
@@ -85,6 +92,7 @@ public class Base {
 				//Headless mode
 				driver = new ChromeDriver(options);
 				// System.out.println("Driver name "+driver);
+				
 
 			} else if (browserName.equalsIgnoreCase("firefox")) {
 				System.setProperty("webdriver.gecko.driver", ".\\LibraryFolder\\Drivers\\geckodriver.exe");
