@@ -153,5 +153,9 @@ public class Base {
 		return d;
 	}
 
+	public void anumanthu_gitmethod()
+	{
+		System.out.println("Added new anumanthu method");
+	}
 	
 }
