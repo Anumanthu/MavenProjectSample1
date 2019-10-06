@@ -158,4 +158,14 @@ public class Base {
 		System.out.println("Added new anumanthu method");
 	}
 	
+	public void anumanthu_gitmethod1()
+	{
+		System.out.println("Added new anumanthu method1");
+	}
+	
+	public void anumanthu_gitmethod2()
+	{
+		System.out.println("Added new anumanthu method2");
+	}
+	
 }
