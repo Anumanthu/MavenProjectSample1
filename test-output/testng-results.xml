@@ -1,61 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Suite" duration-ms="201213" started-at="2019-09-20T15:48:38Z" finished-at="2019-09-20T15:51:59Z">
-    <groups>
-    </groups>
-    <test name="FacebookFriends" duration-ms="201213" started-at="2019-09-20T15:48:38Z" finished-at="2019-09-20T15:51:59Z">
-      <class name="academy.FaceBookPrintFriends">
-        <test-method status="PASS" signature="openUrl1()[pri:0, instance:academy.FaceBookPrintFriends@65fb9ffc]" name="openUrl1" is-config="true" duration-ms="9101" started-at="2019-09-20T15:48:38Z" finished-at="2019-09-20T15:48:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openUrl1 -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:academy.FaceBookPrintFriends@65fb9ffc]" name="login" duration-ms="16556" started-at="2019-09-20T15:48:47Z" finished-at="2019-09-20T15:49:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[anumanthunitt@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sandhya.143]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:academy.FaceBookPrintFriends@65fb9ffc]" name="tearDown" is-config="true" duration-ms="192" started-at="2019-09-20T15:49:03Z" finished-at="2019-09-20T15:49:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="openUrl1()[pri:0, instance:academy.FaceBookPrintFriends@65fb9ffc]" name="openUrl1" is-config="true" duration-ms="7893" started-at="2019-09-20T15:49:04Z" finished-at="2019-09-20T15:49:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openUrl1 -->
-        <test-method status="PASS" signature="printFriendsList(java.lang.String, java.lang.String)[pri:0, instance:academy.FaceBookPrintFriends@65fb9ffc]" name="printFriendsList" duration-ms="167343" started-at="2019-09-20T15:49:12Z" finished-at="2019-09-20T15:51:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[anumanthunitt@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sandhya.143]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printFriendsList -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:academy.FaceBookPrintFriends@65fb9ffc]" name="tearDown" is-config="true" duration-ms="99" started-at="2019-09-20T15:51:59Z" finished-at="2019-09-20T15:51:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- academy.FaceBookPrintFriends -->
-    </test> <!-- FacebookFriends -->
-  </suite> <!-- Suite -->
+    <reporter-output>
+    </reporter-output>
+    <suite name="Suite" duration-ms="201213" started-at="2019-09-20T15:48:38Z" finished-at="2019-09-20T15:51:59Z">
+        <groups>
+        </groups>
+        <test name="FacebookFriends" duration-ms="201213" started-at="2019-09-20T15:48:38Z"
+              finished-at="2019-09-20T15:51:59Z">
+            <class name="academy.FaceBookPrintFriends">
+                <test-method status="PASS" signature="openUrl1()[pri:0, instance:academy.FaceBookPrintFriends@65fb9ffc]"
+                             name="openUrl1" is-config="true" duration-ms="9101" started-at="2019-09-20T15:48:38Z"
+                             finished-at="2019-09-20T15:48:47Z">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- openUrl1 -->
+                <test-method status="PASS"
+                             signature="login(java.lang.String, java.lang.String)[pri:0, instance:academy.FaceBookPrintFriends@65fb9ffc]"
+                             name="login" duration-ms="16556" started-at="2019-09-20T15:48:47Z"
+                             finished-at="2019-09-20T15:49:03Z">
+                    <params>
+                        <param index="0">
+                            <value>
+                                <![CDATA[anumanthunitt@gmail.com]]>
+                            </value>
+                        </param>
+                        <param index="1">
+                            <value>
+                                <![CDATA[sandhya.143]]>
+                            </value>
+                        </param>
+                    </params>
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- login -->
+                <test-method status="PASS" signature="tearDown()[pri:0, instance:academy.FaceBookPrintFriends@65fb9ffc]"
+                             name="tearDown" is-config="true" duration-ms="192" started-at="2019-09-20T15:49:03Z"
+                             finished-at="2019-09-20T15:49:04Z">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- tearDown -->
+                <test-method status="PASS" signature="openUrl1()[pri:0, instance:academy.FaceBookPrintFriends@65fb9ffc]"
+                             name="openUrl1" is-config="true" duration-ms="7893" started-at="2019-09-20T15:49:04Z"
+                             finished-at="2019-09-20T15:49:12Z">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- openUrl1 -->
+                <test-method status="PASS"
+                             signature="printFriendsList(java.lang.String, java.lang.String)[pri:0, instance:academy.FaceBookPrintFriends@65fb9ffc]"
+                             name="printFriendsList" duration-ms="167343" started-at="2019-09-20T15:49:12Z"
+                             finished-at="2019-09-20T15:51:59Z">
+                    <params>
+                        <param index="0">
+                            <value>
+                                <![CDATA[anumanthunitt@gmail.com]]>
+                            </value>
+                        </param>
+                        <param index="1">
+                            <value>
+                                <![CDATA[sandhya.143]]>
+                            </value>
+                        </param>
+                    </params>
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- printFriendsList -->
+                <test-method status="PASS" signature="tearDown()[pri:0, instance:academy.FaceBookPrintFriends@65fb9ffc]"
+                             name="tearDown" is-config="true" duration-ms="99" started-at="2019-09-20T15:51:59Z"
+                             finished-at="2019-09-20T15:51:59Z">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- tearDown -->
+            </class> <!-- academy.FaceBookPrintFriends -->
+        </test> <!-- FacebookFriends -->
+    </suite> <!-- Suite -->
 </testng-results>

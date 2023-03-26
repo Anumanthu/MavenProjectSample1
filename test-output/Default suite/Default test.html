@@ -1,14 +1,15 @@
 <html>
 <head>
-<title>TestNG:  Default test</title>
-<link href="../testng.css" rel="stylesheet" type="text/css" />
-<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+    <title>TestNG: Default test</title>
+    <link href="../testng.css" rel="stylesheet" type="text/css"/>
+    <link href="../my-testng.css" rel="stylesheet" type="text/css"/>
 
-<style type="text/css">
+    <style type="text/css">
 .log { display: none;} 
 .stack-trace { display: none;} 
-</style>
-<script type="text/javascript">
+
+    </style>
+    <script type="text/javascript">
 <!--
 function flip(e) {
   current = e.style.display;
@@ -49,34 +50,51 @@ function toggleAllBoxes() {
 }
 
 // -->
-</script>
+
+    </script>
 
 </head>
 <body>
-<h2 align='center'>Default test</h2><table border='1' align="center">
-<tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
-</tr><tr>
-<td>Started on:</td><td>Sat Aug 17 23:06:11 IST 2019</td>
-</tr>
-<tr><td>Total time:</td><td>0 seconds (37 ms)</td>
-</tr><tr>
-<td>Included groups:</td><td></td>
-</tr><tr>
-<td>Excluded groups:</td><td></td>
-</tr>
-</table><p/>
-<small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='utils.TestUtil.printuseridpassord()'><b>printuseridpassord</b><br>Test class: utils.TestUtil</td>
-<td><div><pre>java.lang.RuntimeException: java.io.FileNotFoundException: .\LibraryFolder\TestData_ExcelFiles (Access is denied)
+<h2 align='center'>Default test</h2>
+<table align="center" border='1'>
+    <tr>
+        <td>Tests passed/Failed/Skipped:</td>
+        <td>0/0/1</td>
+    </tr>
+    <tr>
+        <td>Started on:</td>
+        <td>Sat Aug 17 23:06:11 IST 2019</td>
+    </tr>
+    <tr>
+        <td>Total time:</td>
+        <td>0 seconds (37 ms)</td>
+    </tr>
+    <tr>
+        <td>Included groups:</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Excluded groups:</td>
+        <td></td>
+    </tr>
+</table>
+<p/>
+<small><i>(Hover the method name to see the test class name)</i></small>
+<p/>
+<table border='1' class='invocation-skipped' width='100%'>
+    <tr>
+        <td align='center' colspan='4'><b>SKIPPED TESTS</b></td>
+    </tr>
+    <tr>
+        <td><b>Test method</b></td>
+        <td width="30%"><b>Exception</b></td>
+        <td width="10%"><b>Time (seconds)</b></td>
+        <td><b>Instance</b></td>
+    </tr>
+    <tr>
+        <td title='utils.TestUtil.printuseridpassord()'><b>printuseridpassord</b><br>Test class: utils.TestUtil</td>
+        <td>
+            <div><pre>java.lang.RuntimeException: java.io.FileNotFoundException: .\LibraryFolder\TestData_ExcelFiles (Access is denied)
 	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
 	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
@@ -115,8 +133,12 @@ Caused by: java.io.FileNotFoundException: .\LibraryFolder\TestData_ExcelFiles (A
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
 	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
 	... 22 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1206883981", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1206883981'><pre>java.lang.RuntimeException: java.io.FileNotFoundException: .\LibraryFolder\TestData_ExcelFiles (Access is denied)
+</pre>
+            </div>
+            <a href='#'
+               onClick='toggleBox("stack-trace1206883981", this, "Click to show all stack frames", "Click to hide stack frames")'>Click
+                to show all stack frames</a>
+            <div class='stack-trace' id='stack-trace1206883981'><pre>java.lang.RuntimeException: java.io.FileNotFoundException: .\LibraryFolder\TestData_ExcelFiles (Access is denied)
 	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
 	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
@@ -155,9 +177,13 @@ Caused by: java.io.FileNotFoundException: .\LibraryFolder\TestData_ExcelFiles (A
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
 	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
 	... 22 more
-</pre></div></td>
-<td>0</td>
-<td>utils.TestUtil@f6c48ac</td></tr>
-</table><p>
+</pre>
+            </div>
+        </td>
+        <td>0</td>
+        <td>utils.TestUtil@f6c48ac</td>
+    </tr>
+</table>
+<p>
 </body>
 </html>
